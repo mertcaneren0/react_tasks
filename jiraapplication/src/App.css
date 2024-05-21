@@ -1,0 +1,129 @@
+
+body
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+  
+.App {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .task-create {
+    width: 450px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-update {
+    width: 100%;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-label {
+    margin: 10px 0px;
+  }
+  
+  .task-input {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+  }
+  
+  .task-button {
+    border: 1px solid #4caf50;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .task-button:hover {
+    background-color: #45a049;
+  }
+  
+  .update-button {
+    background-color: #8a2be2;
+    border-color: #8a2be2;
+  }
+  
+  .update-button:hover {
+    background-color: #7b24d1;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .task-show {
+    border: 1px solid #4caf50;
+    border-radius: 10px;
+    width: 250px; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f1f1f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .task-title {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .task-delete {
+    padding: 5px;
+    font-size: 15px;
+    width: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .task-delete:hover {
+    background-color: #cc0000;
+  }
+  
+  .task-edit {
+    padding: 5px;
+    font-size: 15px;
+    width: 100px;
+    border: none;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .task-edit:hover {
+    background-color: #0000cc;
+  }
+  
